@@ -1,6 +1,6 @@
 ﻿# Resume  
 1. Siarhei Shved  
-2. Contacts:    
+2. Contacts:   
   2.1. Phone number - +375 (25) 721-65-62.    
   2.2. E-mail - nixe141417@gmail.com.    
   2.3. Github account - github.com/dastanus.    
