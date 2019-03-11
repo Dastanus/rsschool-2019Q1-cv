@@ -18,13 +18,14 @@ a:hover {
   color: blue;
 }
 
-p {
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   text-align: center;
+}
+
+img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 LI {
