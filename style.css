@@ -1,0 +1,50 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+LI {
+  list-style-type: none;
+}
+
+OL {
+  counter-reset: list1;
+}
+
+OL LI:before {
+  counter-increment: list1;
+  content: counter(list1) ". ";
+}
+
+OL OL {
+  counter-reset: list2;
+}
+
+OL OL LI:before {
+  counter-increment: list2;
+  content: counter(list1) "." counter(list2) ". ";
+}
